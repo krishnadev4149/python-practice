@@ -1,0 +1,15 @@
+# arithmetic operators for two number which is given by user
+
+num1 = int(input("enter the number 1 : "))
+num2 = int(input("enter the number 2 : "))
+
+sum = num1+num2
+diff = num1-num2
+multi = num1*num2
+div = num1/num2
+
+print("the final out put is :\n")
+print("sum is", sum)
+print("diff is", diff)
+print("multi is", multi)
+print("div is", div)
