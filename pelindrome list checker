@@ -1,0 +1,22 @@
+#pelindrome list checker 
+
+print("enter the list which you what to check :\n")
+
+n1 = input("1st : ")
+n2 = input("2nd : ")
+n3 = input("3rd : ")
+n4 = input("4th : ")
+n5 = input("5th : ")
+n6 = input("6th : ")
+n7 = input("7th : ")
+n8 = input("8th : ")
+n9 = input("9th : ")
+
+list1 = [n1,n2,n3,n4,n5,n6,n7,n8,n9]
+list2 = list1.copy()
+list2.reverse()
+
+if (list1 == list2 ) :
+    print("palindrome list")
+else :
+    print("non pelindrome list")
