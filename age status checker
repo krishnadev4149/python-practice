@@ -1,6 +1,6 @@
-# age status checker
-a = int(input("enter your age : "))
-if a >= 18  and a <= 110 :
-    print("you can vote and eligible for driving license .")   
-else : 
-    print("neither you can vote nor you can eligible for driving license")
+# even or odd check
+a = int(input("enter the number : "))
+if a%2 == 0 : 
+    print("this is an even number")
+else  : 
+    print("this is an odd number")
