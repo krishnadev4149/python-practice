@@ -1,0 +1,3 @@
+# Temperature Converter from Celsius to Fahrenheit
+a = int(input("enter the temperature (celsius) : "))
+print("temperature will be (in fahrenheit) : ", (a*(9/5))+32)
