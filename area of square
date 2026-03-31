@@ -1,0 +1,2 @@
+a = int(input("enter the lenth of one side of square : "))
+print("the area of square will be : ", a**2)
