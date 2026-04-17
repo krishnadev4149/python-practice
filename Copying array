@@ -1,0 +1,14 @@
+n = int(input("Enter the length of array: "))
+
+a = [0]*n
+b = [0]*n
+
+for i in range(0, n):
+    a[i] = int(input("Enter element of array: "))
+
+for i in range(0, n):
+    b[i] = a[i]
+
+print("The copied array is:")
+for i in range(0, n):
+    print(b[i])
